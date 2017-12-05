@@ -1,5 +1,6 @@
 package com.zhou.turtle.base;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -21,5 +22,10 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(getLayout());
         ButterKnife.bind(this);
         init();
+    }
+
+    public void startToActivity(Class<?> lazz){
+        Intent intent = new Intent(this,lazz);
+        startActivity(intent);
     }
 }
