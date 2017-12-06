@@ -1,8 +1,7 @@
-package com.zhou.turtle.view;
+package com.zhou.turtle.view.activity;
 
 import android.text.InputType;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -11,7 +10,7 @@ import com.zhou.turtle.base.BaseActivity;
 import com.zhou.turtle.model.bean.UserBean;
 import com.zhou.turtle.presenter.LoginPresenter;
 import com.zhou.turtle.util.ToastUtil;
-import com.zhou.turtle.view.IView.ILogin;
+import com.zhou.turtle.view.activity.IView.ILogin;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -31,7 +30,8 @@ public class LoginActivity extends BaseActivity implements ILogin {
 
     @Override
     public void init() {
-
+        et_username.setText("3232@qq.com");
+        et_password.setText("123456");
     }
 
     @OnClick({R.id.bt_login, R.id.clear, R.id.hint})

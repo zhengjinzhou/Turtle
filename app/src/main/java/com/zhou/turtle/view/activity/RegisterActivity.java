@@ -1,4 +1,4 @@
-package com.zhou.turtle.view;
+package com.zhou.turtle.view.activity;
 
 import android.text.InputType;
 import android.text.TextUtils;
@@ -10,15 +10,17 @@ import com.zhou.turtle.base.BaseActivity;
 import com.zhou.turtle.model.bean.UserBean;
 import com.zhou.turtle.presenter.RegisterPrester;
 import com.zhou.turtle.util.ToastUtil;
-import com.zhou.turtle.view.IView.IRegister;
+import com.zhou.turtle.view.activity.IView.IRegister;
 
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class RegisterActivity extends BaseActivity implements IRegister{
+public class RegisterActivity extends BaseActivity implements IRegister {
 
-    @BindView(R.id.et_username) EditText et_username;
-    @BindView(R.id.et_password) EditText et_password;
+    @BindView(R.id.et_username)
+    EditText et_username;
+    @BindView(R.id.et_password)
+    EditText et_password;
     RegisterPrester prester = new RegisterPrester(this);
 
     @Override
@@ -31,8 +33,9 @@ public class RegisterActivity extends BaseActivity implements IRegister{
 
     }
 
-    @OnClick({R.id.bt_register,R.id.hint,R.id.clear}) void onClick(View view){
-        switch (view.getId()){
+    @OnClick({R.id.bt_register, R.id.hint, R.id.clear, R.id.iv_back})
+    void onClick(View view) {
+        switch (view.getId()) {
             case R.id.bt_register:
                 prester.register();
                 break;
@@ -42,12 +45,15 @@ public class RegisterActivity extends BaseActivity implements IRegister{
             case R.id.clear:
                 prester.clear();
                 break;
+            case R.id.iv_back:
+                break;
         }
     }
+
     @Override
     public String getUserName() {
-        if (TextUtils.isEmpty(et_username.getText().toString())){
-            ToastUtil.show(getApplicationContext(),"用户名不能为空");
+        if (TextUtils.isEmpty(et_username.getText().toString())) {
+            ToastUtil.show(getApplicationContext(), "用户名不能为空");
             return "";
         }
         return et_username.getText().toString();
@@ -55,8 +61,8 @@ public class RegisterActivity extends BaseActivity implements IRegister{
 
     @Override
     public String getPassword() {
-        if (TextUtils.isEmpty(et_username.getText().toString())){
-            ToastUtil.show(getApplicationContext(),"密码不能为空");
+        if (TextUtils.isEmpty(et_username.getText().toString())) {
+            ToastUtil.show(getApplicationContext(), "密码不能为空");
             return "";
         }
         return et_password.getText().toString();
@@ -75,7 +81,7 @@ public class RegisterActivity extends BaseActivity implements IRegister{
 
     @Override
     public void showRegisterError() {
-        ToastUtil.show(getApplicationContext(),"用户已存在");
+        ToastUtil.show(getApplicationContext(), "用户已存在");
     }
 
     @Override

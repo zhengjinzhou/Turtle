@@ -4,7 +4,7 @@ import android.text.TextUtils;
 
 import com.zhou.turtle.api.APIServer;
 import com.zhou.turtle.model.bean.UserBean;
-import com.zhou.turtle.view.IView.ILogin;
+import com.zhou.turtle.view.activity.IView.ILogin;
 
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/dp_16"
+    android:paddingRight="@dimen/dp_16">
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/tv_fragment_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/menu_home_sel" />
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/tv_fragment_friend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/menu_chat_sel" />
+
+    <android.support.design.widget.CheckableImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null" />
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/tv_fragment_china"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/menu_china_sel" />
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/tv_fragment_help"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/menu_help_sel" />
+</LinearLayout>

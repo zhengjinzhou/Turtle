@@ -1,4 +1,4 @@
-package com.zhou.turtle.view.IView;
+package com.zhou.turtle.view.activity.IView;
 
 import com.zhou.turtle.model.bean.UserBean;
 
@@ -6,8 +6,8 @@ import com.zhou.turtle.model.bean.UserBean;
  * Created by zhou on 2017/12/6.
  */
 
-public interface ILogin {
-    
+public interface IRegister {
+
     String getUserName();
 
     String getPassword();
@@ -16,7 +16,7 @@ public interface ILogin {
 
     void showFailedError();
 
-    void showLoginError();
+    void showRegisterError();
 
     void showLoading();
 
