@@ -19,4 +19,10 @@ public interface XGGServer {
     @FormUrlEncoded
     @POST("login/login")
     Observable<UserBean> login(@Field("username") String username,@Field("password") String password);
+
+    //注册
+    @FormUrlEncoded
+    @POST("login/register")
+    Observable<UserBean> register(@Field("username") String username,@Field("password") String password);
+
 }
