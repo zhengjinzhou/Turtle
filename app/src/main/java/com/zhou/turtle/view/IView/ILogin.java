@@ -7,6 +7,7 @@ import com.zhou.turtle.model.bean.UserBean;
  */
 
 public interface ILogin {
+    
     String getUserName();
 
     String getPassword();
@@ -14,6 +15,8 @@ public interface ILogin {
     void toMainActivity(UserBean user);
 
     void showFailedError();
+
+    void showLoginError();
 
     void showLoading();
 

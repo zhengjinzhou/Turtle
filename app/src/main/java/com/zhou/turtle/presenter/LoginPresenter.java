@@ -43,10 +43,25 @@ public class LoginPresenter {
 
                         @Override
                         public void onNext(UserBean userBean) {
-                            login.hideLoading();
-                            login.toMainActivity(userBean);
+                            if (userBean.getError() == 0){
+                                login.hideLoading();
+                                login.toMainActivity(userBean);
+                                //保存到app中
+                            }else{
+                                login.hideLoading();
+                                login.showLoginError();
+                            }
                         }
                     });
         }
     }
+
+    public void clear(){
+        login.clearUserName();
+    }
+
+    public void showPassword(){
+        login.showPassword();
+    }
+
 }
