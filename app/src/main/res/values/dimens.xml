@@ -54,5 +54,7 @@
     <dimen name="dp_30">30dp</dimen>
 
     <dimen name="nav_bar_height">56dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="font_13">13dp</dimen>
 
 </resources>

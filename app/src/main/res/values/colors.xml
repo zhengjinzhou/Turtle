@@ -8,4 +8,7 @@
     <color name="app_bg">#f0eff5</color>
     <color name="txt_color">#1e1e1e</color>
     <color name="ed_color">#99494949</color>
+    <color name="black">#000</color>
+    <color name="bg_">#f3eeee</color>
+    <color name="transparence">#FFFAFA</color>
 </resources>

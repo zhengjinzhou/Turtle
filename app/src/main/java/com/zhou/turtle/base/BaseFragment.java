@@ -1,6 +1,7 @@
 package com.zhou.turtle.base;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -38,5 +39,10 @@ public abstract class BaseFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         unbinder.unbind();
+    }
+
+    public void startToActivity(Class<?> zall){
+        Intent intent = new Intent(getContext(), zall);
+        startActivity(intent);
     }
 }

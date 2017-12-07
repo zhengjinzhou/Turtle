@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.zhou.turtle.view.activity.StartActivity">
 
-    <include layout="@layout/layout_top" />
+    <include
+        layout="@layout/layout_top" />
 
     <ImageView
         android:id="@+id/iv_login"
