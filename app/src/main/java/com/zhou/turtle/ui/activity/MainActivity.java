@@ -1,4 +1,4 @@
-package com.zhou.turtle.view.activity;
+package com.zhou.turtle.ui.activity;
 
 import android.support.design.widget.CheckableImageButton;
 import android.support.v4.app.Fragment;
@@ -10,10 +10,10 @@ import android.widget.ImageView;
 import com.zhou.turtle.R;
 import com.zhou.turtle.base.BaseActivity;
 import com.zhou.turtle.util.ToastUtil;
-import com.zhou.turtle.view.fragment.ChinaFragment;
-import com.zhou.turtle.view.fragment.FriendFragment;
-import com.zhou.turtle.view.fragment.HelpFragment;
-import com.zhou.turtle.view.fragment.HomeFragment;
+import com.zhou.turtle.ui.fragment.ChinaFragment;
+import com.zhou.turtle.ui.fragment.FriendFragment;
+import com.zhou.turtle.ui.fragment.HelpFragment;
+import com.zhou.turtle.ui.fragment.HomeFragment;
 
 import butterknife.BindView;
 import butterknife.OnClick;

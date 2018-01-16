@@ -1,4 +1,4 @@
-package com.zhou.turtle.view.fragment;
+package com.zhou.turtle.ui.fragment;
 
 import android.view.View;
 
@@ -9,10 +9,10 @@ import com.zhou.turtle.base.BaseFragment;
  * Created by zhou on 2017/12/6.
  */
 
-public class HelpFragment extends BaseFragment {
+public class ChinaFragment extends BaseFragment {
     @Override
     public int getLayout() {
-        return R.layout.fragment_help;
+        return R.layout.fragment_china;
     }
 
     @Override

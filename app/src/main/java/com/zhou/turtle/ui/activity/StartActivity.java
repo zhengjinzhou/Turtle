@@ -1,4 +1,4 @@
-package com.zhou.turtle.view.activity;
+package com.zhou.turtle.ui.activity;
 
 import android.view.View;
 

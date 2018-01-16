@@ -1,4 +1,4 @@
-package com.zhou.turtle.view.fragment;
+package com.zhou.turtle.ui.fragment;
 
 import android.view.View;
 

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zhou.turtle.view.activity.TaskActivity">
+    tools:context="com.zhou.turtle.ui.activity.TaskActivity">
 
     <include layout="@layout/layout_top"/>
 </LinearLayout>

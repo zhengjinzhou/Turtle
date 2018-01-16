@@ -1,17 +1,10 @@
-package com.zhou.turtle.view.fragment;
+package com.zhou.turtle.ui.fragment;
 
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.zhou.turtle.R;
-import com.zhou.turtle.adapter.base.CommonAdapter;
-import com.zhou.turtle.adapter.base.ViewHolder;
 import com.zhou.turtle.base.BaseFragment;
-import com.zhou.turtle.view.activity.TaskActivity;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
