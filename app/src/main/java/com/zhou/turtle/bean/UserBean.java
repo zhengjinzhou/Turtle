@@ -1,4 +1,4 @@
-package com.zhou.turtle.model.bean;
+package com.zhou.turtle.bean;
 
 /**
  * Created by zhou on 2017/12/6.

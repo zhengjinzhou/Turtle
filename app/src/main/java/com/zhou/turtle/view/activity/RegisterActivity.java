@@ -7,7 +7,7 @@ import android.widget.EditText;
 
 import com.zhou.turtle.R;
 import com.zhou.turtle.base.BaseActivity;
-import com.zhou.turtle.model.bean.UserBean;
+import com.zhou.turtle.bean.UserBean;
 import com.zhou.turtle.presenter.RegisterPrester;
 import com.zhou.turtle.util.ToastUtil;
 import com.zhou.turtle.view.activity.IView.IRegister;

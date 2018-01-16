@@ -1,7 +1,7 @@
 package com.zhou.turtle.api;
 
 import com.zhou.turtle.Constant;
-import com.zhou.turtle.model.bean.UserBean;
+import com.zhou.turtle.bean.UserBean;
 
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;

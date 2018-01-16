@@ -1,6 +1,6 @@
 package com.zhou.turtle.view.activity.IView;
 
-import com.zhou.turtle.model.bean.UserBean;
+import com.zhou.turtle.bean.UserBean;
 
 /**
  * Created by zhou on 2017/12/6.

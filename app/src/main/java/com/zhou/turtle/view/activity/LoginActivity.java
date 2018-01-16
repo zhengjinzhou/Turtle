@@ -1,6 +1,5 @@
 package com.zhou.turtle.view.activity;
 
-import android.support.design.widget.AppBarLayout;
 import android.text.InputType;
 import android.text.TextUtils;
 import android.view.View;
@@ -8,7 +7,7 @@ import android.widget.EditText;
 
 import com.zhou.turtle.R;
 import com.zhou.turtle.base.BaseActivity;
-import com.zhou.turtle.model.bean.UserBean;
+import com.zhou.turtle.bean.UserBean;
 import com.zhou.turtle.presenter.LoginPresenter;
 import com.zhou.turtle.util.ToastUtil;
 import com.zhou.turtle.view.activity.IView.ILogin;
