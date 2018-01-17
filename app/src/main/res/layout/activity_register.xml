@@ -40,7 +40,7 @@
             android:layout_marginLeft="@dimen/dp_10"
             android:layout_toRightOf="@+id/ic_user"
             android:background="@null"
-            android:hint="使用邮箱注册"
+            android:hint="@string/e_mail"
             android:maxLines="1"
             android:singleLine="true" />
 
@@ -85,7 +85,7 @@
             android:layout_marginLeft="@dimen/dp_10"
             android:layout_toRightOf="@+id/ic_pwd"
             android:background="@null"
-            android:hint="password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:maxLines="1"
             android:singleLine="true" />
@@ -113,5 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rl2"
         android:layout_margin="@dimen/dp_20"
-        android:text="注册" />
+        android:background="@drawable/bg_login2"
+        android:text="注册"
+        android:textColor="@color/white" />
 </RelativeLayout>

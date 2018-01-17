@@ -18,7 +18,6 @@ import butterknife.Unbinder;
 
 public abstract class BaseFragment extends Fragment {
 
-    private Unbinder unbinder;
     public abstract int getLayout();
     protected abstract void init(View v);
 
@@ -35,11 +34,6 @@ public abstract class BaseFragment extends Fragment {
         init(view);
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        unbinder.unbind();
-    }
 
     public void startToActivity(Class<?> zall){
         Intent intent = new Intent(getContext(), zall);

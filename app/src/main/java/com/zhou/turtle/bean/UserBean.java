@@ -133,5 +133,29 @@ public class UserBean {
         public void setUpdated_at(String updated_at) {
             this.updated_at = updated_at;
         }
+
+        @Override
+        public String toString() {
+            return "DataBean{" +
+                    "id=" + id +
+                    ", username='" + username + '\'' +
+                    ", nickname='" + nickname + '\'' +
+                    ", status=" + status +
+                    ", created_at='" + created_at + '\'' +
+                    ", pic='" + pic + '\'' +
+                    ", token_rongyun='" + token_rongyun + '\'' +
+                    ", token='" + token + '\'' +
+                    ", updated_at='" + updated_at + '\'' +
+                    '}';
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "UserBean{" +
+                "error=" + error +
+                ", msg='" + msg + '\'' +
+                ", data=" + data +
+                '}';
     }
 }

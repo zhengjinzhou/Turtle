@@ -33,7 +33,6 @@ public class HomeFragment extends BaseFragment {
             R.id.ll_interactive, R.id.ll_video_call, R.id.ll_task})
     void onClick(View view) {
         switch (view.getId()) {
-
             case R.id.ll_little_turtles:
 
                 break;
@@ -59,7 +58,7 @@ public class HomeFragment extends BaseFragment {
                 break;
 
             case R.id.ll_task:
-                startToActivity(TaskActivity.class);
+
                 break;
             case R.id.ll_application:
 

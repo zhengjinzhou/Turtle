@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/app_bg"
     tools:context="com.zhou.turtle.ui.activity.StartActivity">
 
-    <include
-        layout="@layout/layout_top" />
+    <include layout="@layout/layout_top" />
 
     <ImageView
         android:id="@+id/iv_login"
@@ -113,5 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rl2"
         android:layout_margin="@dimen/dp_20"
-        android:text="登录" />
+        android:background="@drawable/bg_login2"
+        android:text="登录"
+        android:textColor="@color/white" />
 </RelativeLayout>

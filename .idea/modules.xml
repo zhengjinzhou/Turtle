@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Turtle.iml" filepath="$PROJECT_DIR$/Turtle.iml" />
+      <module fileurl="file://F:\Asp\Turtle\Turtle.iml" filepath="F:\Asp\Turtle\Turtle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\Asp\Turtle\app\app.iml" filepath="F:\Asp\Turtle\app\app.iml" />
     </modules>
   </component>
 </project>
