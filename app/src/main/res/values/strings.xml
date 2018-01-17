@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Turtle</string>
+    <string name="app_name">小龟龟</string>
     <string name="logding">加载中...</string>
     <string name="e_mail">use e-mail to register</string>
     <string name="password">password</string>
